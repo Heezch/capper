@@ -6,7 +6,7 @@ Yes! Look no further.
 
 
 Requires the following packages:
-- mdtraj
-- biopython
+- mdtraj: https://mdtraj.org/1.9.3/installation.html
+- biopython: https://biopython.org/wiki/Download
 - numpy
 - copy
