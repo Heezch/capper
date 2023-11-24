@@ -3,3 +3,10 @@
 "Is there a scripted tool to add neutral terminal caps (e.g. NME, ACE) to peptide chains for use with AMBER forcefields?" 
 
 Yes! Look no further.
+
+
+Requires the following packages:
+- mdtraj
+- biopython
+- numpy
+- copy
