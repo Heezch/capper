@@ -11,10 +11,12 @@ Requires the following packages:
 - numpy
 - copy
 
+Uses backbone of terminal residues and those of termini to fit the caps on the protein using SVD on atoms.
 
 Example:
 
-```traj = md.load('./pdbs/uncapped_protein.pdb')
-capper = Capper(copy.deepcopy(traj),leading_chainid=2,N_term=True,C_term=False)```
+```
+traj = md.load('./pdbs/uncapped_protein.pdb')
+capper = Capper(copy.deepcopy(traj),leading_chainid=2,N_term=True,C_term=False)
+```
 
-Uses backbone of terminal residues and those of termini to fit the caps on the protein using SVD on atoms.
